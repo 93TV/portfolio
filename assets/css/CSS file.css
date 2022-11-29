@@ -1,0 +1,105 @@
+/* GENERAL */
+
+html {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #ff0800;
+}
+
+body {
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    padding: 1rem 2rem;
+    color: #ff0800;
+}
+
+nav a:hover,
+nav a:focus-visible {
+    color: #192bc2;
+    transition: color .3s ease-in-out;
+
+}
+
+a:visited {
+    color: #ff0800;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+/* MAIN */
+a {
+    text-decoration: none;
+}
+
+a {
+    color: #ff0800;
+}
+
+a:hover,
+a:focus-visible {
+    color: #192bc2;
+    transition: color .3s ease-in-out;
+}
+
+/* ABOUT */
+
+/*.container{*/
+/*    margin: 0.5rem;*/
+/*    padding: 0.5rem;*/
+/*    border: 0.1rem dashed #192bc2;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+
+/*.box1  {*/
+/*display: flex;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+
+/*.box2 {*/
+/*    flex: 1;*/
+/*    margin: 0.5rem;*/
+/*    padding: 0.5rem;*/
+/*    border: 0.1rem dashed #192bc2;*/
+/*}*/
+
+/*.box2 ul li {*/
+/*    list-style: none;*/
+/*}*/
+
+/*.box3{*/
+/*    flex: 1;*/
+/*}*/
+
+/*.box4{*/
+/*    flex: 1;*/
+/*}*/
+
+/*.box5{*/
+/*    flex: 1;*/
+/*}*/
+
+
+/* FOOTER */
+

@@ -3,7 +3,6 @@
 html {
     font-family: 'Merriweather Sans', sans-serif;
     color: #ffffff;
-    /*background-color: #000;*/
     background: url("/assets/images/metal2.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,7 +15,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*max-width: 80rem;*/
+    justify-content: center;
 }
 
 body > * {
@@ -100,6 +99,8 @@ p {
     margin: 1rem;
     padding: 1rem;
     align-items: flex-start;
+    justify-content: center;
+    max-width: 80rem;
 }
 
 .containerAbout aside {
@@ -171,10 +172,6 @@ p {
     flex-direction: column;
     flex: 1 1 10rem;
     flex-grow: 1;
-}
-
-.containerHome .wrapperProjects ol li a {
-   
 }
 
 .containerHome .wrapperProjects ol li img {

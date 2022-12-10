@@ -232,7 +232,6 @@ p {
 }
 
 .containerHome .contactme a {
-    align-self: center;
     text-decoration: none;
     color: #ffffff;
     display: flex;
@@ -287,6 +286,17 @@ p {
 }
 
 .containerProjects ol .projectserie li a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: center;
+    border: solid #9D0ff0;
+    border-radius: 1rem;
+}
+
+.containerProjects ol .projectserie li a:hover {
+    background: #0fff50;
+    border: solid #0fff50;
 
 }
 

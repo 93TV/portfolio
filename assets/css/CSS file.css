@@ -58,7 +58,9 @@ nav a.active {
     color: #0fff50;
 }
 
-
+a {
+    color: #9D0ff0;
+}
 a:visited {
     color: #9D0ff0;
 }
@@ -185,6 +187,47 @@ p {
     align-items: center;
 
 }
+
+/*PROJECTS*/
+
+.projectsTitle {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.containerProjects ol {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    list-style: none;
+    gap: 1rem;
+}
+
+.containerProjects ol .projectserie {
+    display: flex;
+}
+
+
+.containerProjects ol li {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    list-style: none;
+}
+
+.containerProjects ol .projectserie li img {
+  order: -1;
+    width: 50%;
+}
+
+.containerProjects ol .projectserie li a {
+
+}
+
+
+
 
 /* FOOTER */
 

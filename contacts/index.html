@@ -41,66 +41,41 @@
 <main>
       <div class="containerContact">
           <form action="form_process.php" method="get">
-              <h1>Testform</h1>
+              <h1>Contact me</h1>
               <div>
                   <label for="name">Name</label>
                   <input type="text" id="name" name="name" value=""/>
               </div>
               <div>
-                  <label for="pass">Password</label>
-                  <input type="password" id="pass" name="pass" value=""/>
+                  <label for="email">E-Mail</label>
+                  <input type="email" id="email" name="email" value=""/>
               </div>
 
               <fieldset>
-                  <legend>Gender</legend>
+                  <legend>How did you find me?</legend>
                   <div>
-                      <input type="radio" name="gender" id="gender_male" value="male"/>
-                      <label for="gender_male">Male</label>
+                      <input type="radio" name="via" id="via_artist" value="Via other artist"/>
+                      <label for="via_artist">Via other artist</label>
                   </div>
                   <div>
-                      <input type="radio" name="gender" id="gender_female" value="female"/>
-                      <label for="gender_female">Female</label>
+                      <input type="radio" name="via" id="via_label" value="Via my label"/>
+                      <label for="via_label">Via my label</label>
                   </div>
                   <div>
-                      <input type="radio" name="gender" id="gender_x" value="x"/>
-                      <label for="gender_x">x</label>
-                  </div>
-              </fieldset>
-
-              <div>
-                  <label for="cont">Continent</label>
-                  <select name="cont" id="cont">
-                      <option value="0">Please select...</option>
-                      <option value="1">Africa</option>
-                      <option value="2">America</option>
-                      <option value="3">Antarctica</option>
-                      <option value="4">Asia</option>
-                      <option value="5">Europe</option>
-                      <option value="6">Oceania</option>
-                  </select>
-              </div>
-
-              <fieldset>
-                  <legend>Meals</legend>
-                  <div>
-                      <input type="checkbox" name="meals[]" id="meal0" value="breakfast"/>
-                      <label for="meal0">breakfast</label>
+                      <input type="radio" name="via" id="via_media" value="Via social media"/>
+                      <label for="via_media">Voa social media</label>
                   </div>
                   <div>
-                      <input type="checkbox" name="meals[]" id="meal1" value="lunch"/>
-                      <label for="meal1">lunch</label>
-                  </div>
-                  <div>
-                      <input type="checkbox" name="meals[]" id="meal2" value="dinner"/>
-                      <label for="meal2">dinner</label>
+                      <input type="radio" name="via" id="via_other" value="Other"/>
+                      <label for="via_other">Other</label>
                   </div>
               </fieldset>
 
-              <div>
-                  <label for="remark">Remark</label>
-                  <textarea name="remark" id="remark" rows="5" cols="40"></textarea>
-              </div>
 
+              <div>
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" rows="5" cols="40"></textarea>
+              </div>
               <input type="submit" id="btnSubmit" name="btnSubmit" value="Send"/>
           </form>
     </div>

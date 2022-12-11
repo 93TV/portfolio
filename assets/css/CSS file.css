@@ -316,6 +316,14 @@ p {
 .projectDetailContainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 100rem;
+}
+
+.projectDetail {
+    display: flex;
+    justify-content: space-evenly;
     gap: 1rem;
 }
 
@@ -328,6 +336,11 @@ p {
     justify-content: space-evenly;
 }
 
+.ProjectBanner h1:hover {
+    font-family: 'UnifrakturMaguntia', sans-serif;
+    font-size: x-large;
+    color: #1ff002;
+}
 .ImgSerie img {
     width: 20%;
 }
@@ -340,9 +353,14 @@ display: flex;
 
 .ProjectBanner {
     display: flex;
+    margin: 1rem;
     justify-content: space-evenly;
     align-items: center;
 }
+
+/*CONTACT*/
+
+
 /* FOOTER */
 
 footer {

@@ -39,13 +39,13 @@ nav {
 
 nav a {
     padding: 1rem 2rem;
-    color: #9D0ff0;
+    color: #a32bb3;
     text-decoration: none;
 }
 
 nav a:hover,
 nav a:focus-visible {
-    color: #0fff50;
+    color: #09b384;
     font-family: 'UnifrakturMaguntia', sans-serif;
     font-size: larger;
     transition: color .3s ease-in-out;
@@ -55,14 +55,14 @@ nav a:focus-visible {
 nav a.active {
     font-family: 'UnifrakturMaguntia', sans-serif;
     font-size: x-large;
-    color: #0fff50;
+    color: #09b384;
 }
 
 a {
-    color: #9D0ff0;
+    color: #a32bb3;
 }
 a:visited {
-    color: #9D0ff0;
+    color: #a32bb3;
 }
 
 nav ul {
@@ -112,11 +112,11 @@ p {
     flex-direction: column;
     align-content: space-evenly;
     align-items: center;
-    border: dashed 0.1rem #9D0ff0;
+    border: dashed 0.1rem #a32bb3;
 }
 
 .containerAbout aside:hover {
-    border: dashed 0.1rem #0fff50;
+    border: dashed 0.1rem #09b384;
 }
 
 .containerAbout aside ul {
@@ -173,16 +173,17 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #9D0ff0;
+    border: #a32bb3;
     border-radius: 0.5rem;
-    background-color: #9D0ff0;
+    background-color: #a32bb3;
     width: 10rem;
     height: 2rem;
 }
 
 .containerHome .banner .banneritem:nth-child(1) a:hover,
 .containerHome .banner .banneritem:nth-child(1) a:focus-visible {
-    background-color: #0fff50;
+    color: #ffffff;
+    background-color: #09b384;
 
 }
 
@@ -217,14 +218,14 @@ p {
     color: #ffffff;
     text-decoration: none;
     justify-content: center;
-    border: solid #9D0ff0;
+    border: solid #a32bb3;
     border-radius: 1rem;
     flex-grow: 1;
 }
 
 .wrapperProjects ol li a:hover {
-    background: #0fff50;
-    border: solid #0fff50;
+    background: #09b384;
+    border: solid #09b384;
 
 }
 
@@ -250,9 +251,9 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #9D0ff0;
+    border: #a32bb3;
     border-radius: 0.5rem;
-    background-color: #9D0ff0;
+    background-color: #a32bb3;
     width: 10rem;
     height: 2rem;
     flex-grow: 5;
@@ -260,7 +261,7 @@ p {
 
 .containerHome .contactme a:hover,
 .containerHome .contactme a:focus-visible {
-    background-color: #0fff50;
+    background-color: #09b384;
 }
 
 
@@ -303,13 +304,13 @@ p {
     color: #ffffff;
     text-decoration: none;
     justify-content: center;
-    border: solid #9D0ff0;
+    border: solid #a32bb3;
     border-radius: 1rem;
 }
 
 .containerProjects ol .projectserie li a:hover {
-    background: #0fff50;
-    border: solid #0fff50;
+    background: #09b384;
+    border: solid #09b384;
 
 }
 
@@ -339,7 +340,7 @@ p {
 .ProjectBanner h1:hover {
     font-family: 'UnifrakturMaguntia', sans-serif;
     font-size: x-large;
-    color: #1ff002;
+    color: #09b384;
 }
 .ImgSerie img {
     width: 20%;
@@ -381,17 +382,17 @@ fieldset {
     align-items: center;
     text-align: center;
     max-width: 40rem ;
-    border-color: #9D0ff0;
+    border-color: #a32bb3;
 }
 
 fieldset:hover {
-    border-color: #0fff50;
+    border-color: #09b384;
     transition:border-color 0.2s ease-in-out;
 }
 /* FOOTER */
 
 footer {
-    color: #9D0ff0;
+    color: #a32bb3;
     font-weight: 400;
     text-align: right;
     }

@@ -3,7 +3,7 @@
 html {
     font-family: 'Merriweather Sans', sans-serif;
     color: #ffffff;
-    background: url("/assets/images/metal2.png") no-repeat center center fixed;
+    background: url("../images/metal2.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,11 +11,12 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 90rem;
 }
 
 body > * {
@@ -206,9 +207,31 @@ p {
 }
 
 .wrapperProjects li {
+    position: relative;
     display: flex;
     flex-direction: column;
     flex: 1 1 10rem;
+}
+
+.wrapperProjects li > a.overlay {
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 10%;
+    border:none;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.wrapperProjects li a:not(.overlay):hover {
+    background-color: #0fff50;
+    border-color: #0fff50;
+    transition: 0.3s ease-in-out;
+}
+
+.wrapperProjects p {
     flex-grow: 1;
 }
 
@@ -219,13 +242,6 @@ p {
     justify-content: center;
     border: solid #9D0ff0;
     border-radius: 1rem;
-    flex-grow: 1;
-}
-
-.wrapperProjects ol li a:hover {
-    background: #0fff50;
-    border: solid #0fff50;
-
 }
 
 .wrapperProjects img {
